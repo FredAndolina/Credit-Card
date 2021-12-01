@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Credit Card</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="header" id="header">
+            <section class="title" id="title">
+                <h1>Credit Card Checkout</h1>
+            </section>
+
+            <section class="page">
+                <section class="Contact">
+                    <div class="name"> 
+                        <label for="Utilisateur">Name on the card</label><br>
+                        <input class="NA" type="text" id="Utilisateur" name="Nom" placeholder="Name"/>
+                    </div>
+                    <div class="number"> 
+                        <label for="number">Card Number</label><br>
+                        <input class="N" type="text" id="Number" name="Nom" placeholder="0000 0000 0000 0000"/>
+                        <p>/</p>
+                        <img class="image" src="./logo mastercard.png" alt="logo masterCard">
+                    </div>
+                    <div class="date">
+                        <label for="date">Expiry date</label><br>
+                        <input class="texte" type="text" id="date" name="Nom" placeholder="MM/YY"/>
+                    </div>
+
+                    <div class="CVV">
+                        <label for="CVV">CVV/CVC</label><br>
+                        <input class="  cvv2" type="text" id="CVV" name="Nom" placeholder="000"/>
+                    </div>
+
+                    <div class="payment">
+                        
+                        <input type="checkbox" id="Nom" name="Nom" placeholder="MM/YY" />
+                        <label for="Nom">save my card for future payment</label>
+                    </div>
+
+                </section>
+                <div class="trait"></div>
+
+                <section class="card">
+                    <div class="ordernumber">
+                        <h4>Order number</h4>
+                        <h3 class="orderNumber">12345678</h3>
+                    </div>
+                    <div class="payment">
+                        <h4>Payment amount</h4>
+                        <h3 class="orderNumber">$ <span> 59,49</span></h3>
+                    </div>
+
+                    <button>PAY</button>
+
+                </section>
+            </section>
+    </section>
+</body>
+</html>
